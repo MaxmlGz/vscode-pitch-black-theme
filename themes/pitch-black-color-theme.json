@@ -4,9 +4,9 @@
 // https://github.com/Microsoft/vscode/blob/master/extensions/theme-defaults/themes/dark_plus.json
 
 {
-	"$schema": "vscode://schemas/color-theme",
+  "$schema": "vscode://schemas/color-theme",
   "name": "Pitch Black",
-	"include": "./dark_plus.json",
+  "include": "./dark_plus.json",
   "colors": {
     // Basic text color
     // #d4d4d4 is used rather than #fff because it fits better with the other syntax colors, all of which are taken from the vscode dark plus theme.
@@ -28,9 +28,9 @@
     "editorGroupHeader.tabsBorder": "#000",
 
     // Text selection
-    "editor.selectionBackground": "#007acc",
-    "editor.selectionHighlightBackground": "#007acc",
-    "editor.inactiveSelectionBackground": "#007acc",
+    "editor.selectionBackground": "#303030",
+    "editor.selectionHighlightBackground": "#303030",
+    "editor.inactiveSelectionBackground": "#303030",
     // "editor.selectionForeground": "#f00", // Currently only works in high contrast themes, but making the theme high contrast messes with a lot of other things.
 
     // Find results
@@ -70,6 +70,6 @@
     "sideBar.border": "#000",
     "editorGroup.border": "#000",
     "editorIndentGuide.background": "#000", // Indent lines
-    "editorIndentGuide.activeBackground": "#000", // Active indent line
+    "editorIndentGuide.activeBackground": "#000" // Active indent line
   }
 }
