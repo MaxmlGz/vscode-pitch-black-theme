@@ -82,23 +82,39 @@
         "entity.name.operator"
       ],
       "settings": {
-        "foreground": "#C586C0"
+        "foreground": "#5c28cc"
       }
     },
     {
       "name": "Function parameter name",
-      "scope": "variable.parameter.function-call",
+      "scope": [
+        "variable.parameter.function-call",
+        "variable.parameter.function.language.python"
+      ],
       "settings": {
         "foreground": "#9B2335"
       }
     },
     {
+      "name": "Meta Item Access",
+      "scope": [
+        "meta.function-call.generic",
+        "meta.function-call",
+        "meta.function-call.arguments",
+        "meta.item-access"
+      ],
+      "settings": {
+        "foreground": "#DCDCAA"
+      }
+    },
+    {
       "name": "Variable and parameter name",
       "scope": [
-        "variable",
         "meta.definition.variable.name",
         "support.variable",
         "entity.name.variable",
+        "keyword.operator",
+        "source.python",
         "constant.other.placeholder" // placeholders in strings
       ],
       "settings": {
@@ -154,7 +170,8 @@
         "constant.character.character-class.regexp",
         "constant.other.character-class.set.regexp",
         "constant.other.character-class.regexp",
-        "constant.character.set.regexp"
+        "constant.character.set.regexp",
+        "meta.item-access.arguments.python"
       ],
       "settings": {
         "foreground": "#d16969"
