@@ -70,6 +70,12 @@
     "sideBar.border": "#000",
     "editorGroup.border": "#000",
     "editorIndentGuide.background": "#000", // Indent lines
-    "editorIndentGuide.activeBackground": "#000" // Active indent line
+    "editorIndentGuide.activeBackground": "#000", // Active indent line
+
+    // Border colors
+    "window.activeBorder": "#0000",
+    "window.inactiveBorder": "#0000",
+    "focusBorder": "#0000",
+    "input.border": "#0000"
   }
 }
